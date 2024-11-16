@@ -6,8 +6,7 @@ export default defineConfig({
     themeConfig: {
         nav: [
             { text: "Guide", link: "/guide/introduction" },
-            { text: "Composants", link: "/components/" },
-            { text: "Styles", link: "/styles/" },
+            { text: "Components", link: "/components/" },
         ],
 
         sidebar: {

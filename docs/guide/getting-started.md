@@ -79,13 +79,10 @@ export default function App() {
 
 ## Prochaines étapes
 
--   Explorez les [composants disponibles](/components/)
--   Apprenez à [personnaliser les thèmes](/guide/theming)
--   Consultez les [bonnes pratiques](/guide/best-practices)
+-   Explorez les [composants disponibles](../components/)
 -   Rejoignez notre [communauté](https://github.com/votre-repo/taylux/discussions)
 
 ## Besoin d'aide ?
 
--   Consultez notre [FAQ](/guide/faq)
 -   Ouvrez une [issue sur GitHub](https://github.com/votre-repo/taylux/issues)
 -   Rejoignez notre [Discord](https://discord.gg/votre-serveur)
