@@ -73,12 +73,12 @@ Taylux suit plusieurs principes clés :
 ## Prochaines Étapes
 
 -   Consultez notre [Guide de Démarrage](/guide/getting-started) pour commencer
--   Explorez nos [Composants](/components/button/button) disponibles
+-   Explorez nos [Composants](/components/introduction) disponibles
 -   Rejoignez notre [Communauté](https://github.com/votre-repo/taylux/discussions)
 
 ## Contribution
 
-Nous accueillons favorablement les contributions de la communauté ! Consultez notre [Guide de Contribution](CONTRIBUTING.md) pour commencer.
+Nous accueillons favorablement les contributions de la communauté ! Consultez notre pour commencer.
 
 ## Support
 
