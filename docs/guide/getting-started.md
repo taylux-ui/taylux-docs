@@ -1,88 +1,87 @@
-# Guide de démarrage
+# Introduction
+
+Taylux est une bibliothèque de composants moderne conçue pour Vue.js et React, offrant une collection riche de composants d'interface utilisateur hautement personnalisables et accessibles. Notre objectif est de fournir aux développeurs les outils nécessaires pour créer rapidement des interfaces utilisateur professionnelles sans compromis sur la qualité ou la flexibilité.
+
+## Pourquoi Taylux ?
+
+-   **Double Compatibilité Framework** : Utilisez les mêmes composants dans vos projets Vue.js et React
+-   **Performance Optimisée** : Conçu pour être léger et rapide dès le départ
+-   **Accessibilité Native** : Tous les composants sont conformes WCAG 2.1
+-   **Personnalisation Avancée** : Système de thème flexible et API de style puissante
 
 ## Installation
 
-::: code-group
+```bash
+# Pour Vue.js
+npm install @taylux/vue
 
-```bash [npm]
-npm install taylux
+# Pour React
+npm install @taylux/react
 ```
 
-```bash [yarn]
-yarn add taylux
-```
+## Utilisation Rapide
 
-```bash [pnpm]
-pnpm add taylux
-```
+### Vue.js
 
-```bash [bun]
-bun add taylux
-```
-
-:::
-
-## Configuration
-
-Importez Taylux dans votre application :
-
-::: code-group
-
-```js [Vue]
-// main.ts
-import { createApp } from "vue";
-import Taylux from "taylux";
-import "taylux/dist/style.css";
-import App from "./App.vue";
-
-const app = createApp(App);
-app.use(Taylux);
-app.mount("#app");
-```
-
-```js [React]
-// main.tsx
-import React from "react";
-import ReactDOM from "react-dom/client";
-import { TayluxProvider } from "taylux";
-import "taylux/dist/style.css";
-import App from "./App";
-
-ReactDOM.createRoot(document.getElementById("root")).render();
-```
-
-:::
-
-## Usage basique
-
-Une fois installé, vous pouvez commencer à utiliser les composants Taylux :
-
-::: code-group
-
-```vue [Vue]
-<script setup></script>
+```vue
+<script setup>
+import { TxButton } from "@taylux/vue";
+</script>
 
 <template>
-    <TayluxButton> Valider </TayluxButton>
+    <TxButton variant="primary"> Mon Premier Bouton </TxButton>
 </template>
 ```
 
-```tsx [React]
-import { TayluxButton } from "@taylux/react";
+### React
 
-export default function App() {
-    return <TayluxButton>Valider</TayluxButton>;
+```jsx
+import { TxButton } from "@taylux/react";
+
+function App() {
+    return <TxButton variant="primary">Mon Premier Bouton</TxButton>;
 }
 ```
 
-:::
+## Structure des Composants
 
-## Prochaines étapes
+Les composants Taylux sont organisés en catégories pour une meilleure navigation :
 
--   Explorez les [composants disponibles](../components/)
--   Rejoignez notre [communauté](https://github.com/votre-repo/taylux/discussions)
+### Actions
 
-## Besoin d'aide ?
+Les composants qui déclenchent des actions ou des événements dans votre interface.
 
--   Ouvrez une [issue sur GitHub](https://github.com/votre-repo/taylux/issues)
--   Rejoignez notre [Discord](https://discord.gg/votre-serveur)
+-   **Button** : Boutons personnalisables pour diverses actions
+-   **Input** : Champs de saisie avec validation et états
+
+### Prochainement
+
+-   Composants de mise en page
+-   Composants de navigation
+-   Composants de feedback
+-   Composants de données
+
+## Philosophie de Design
+
+Taylux suit plusieurs principes clés :
+
+1. **Simplicité** : API intuitive et documentation claire
+2. **Flexibilité** : Hautement personnalisable sans sacrifier la facilité d'utilisation
+3. **Performance** : Optimisé pour la production avec un impact minimal sur le bundle
+4. **Accessibilité** : Conçu pour être utilisable par tous
+
+## Prochaines Étapes
+
+-   Consultez notre [Guide de Démarrage](/guide/getting-started) pour commencer
+-   Explorez nos [Composants](/components/button/button) disponibles
+-   Rejoignez notre [Communauté](https://github.com/votre-repo/taylux/discussions)
+
+## Contribution
+
+Nous accueillons favorablement les contributions de la communauté ! Consultez notre [Guide de Contribution](CONTRIBUTING.md) pour commencer.
+
+## Support
+
+-   📖 [Documentation Complète](/guide/getting-started)
+-   💬 [Discussions GitHub](https://github.com/votre-repo/taylux/discussions)
+-   🐛 [Signalement de Bugs](https://github.com/votre-repo/taylux/issues)
